@@ -6,9 +6,12 @@
 function sum(a, b) {
   // TODO: Implement this function.
 }
+<<<<<<< HEAD
 function sum(a, b) {
   return a + b;
 }
+=======
+>>>>>>> 7740871883d8bd8759fcb9a4811d40626e37d73c
 
 /**
  * @param {string} str The string to reverse.
@@ -17,9 +20,12 @@ function sum(a, b) {
 function reverseString(str) {
   // TODO: Implement this function.
 }
+<<<<<<< HEAD
 function reverseString(str) {
   return str.split('').reverse().join('');
 }
+=======
+>>>>>>> 7740871883d8bd8759fcb9a4811d40626e37d73c
 
 /**
  * @param {number[]} numbers An array of numbers.
@@ -28,10 +34,14 @@ function reverseString(str) {
 function findLargest(numbers) {
   // TODO: Implement this function.
 }
+<<<<<<< HEAD
 function findLargest(numbers) {
   if (numbers.length === 0) return null;
   return Math.max(...numbers);
 }
+=======
+
+>>>>>>> 7740871883d8bd8759fcb9a4811d40626e37d73c
 /**
  * @param {string} str The string to check.
  * @returns {boolean} True if the string is a palindrome, false otherwise.
@@ -41,10 +51,14 @@ function findLargest(numbers) {
 function isPalindrome(str) {
   // TODO: Implement this function.
 }
+<<<<<<< HEAD
 function isPalindrome(str) {
   const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
   return cleanedStr === cleanedStr.split('').reverse().join('');
 }
+=======
+
+>>>>>>> 7740871883d8bd8759fcb9a4811d40626e37d73c
 /**
  * @param {number[]} numbers An array of numbers.
  * @returns {number[]} A new array containing only the even numbers from the original array.
@@ -52,9 +66,13 @@ function isPalindrome(str) {
 function filterEvenNumbers(numbers) {
   // TODO: Implement this function.
 }
+<<<<<<< HEAD
 function filterEvenNumbers(numbers) {
   return numbers.filter(num => num % 2 === 0);
 }
+=======
+
+>>>>>>> 7740871883d8bd8759fcb9a4811d40626e37d73c
 
 // Do not edit the line below.
 module.exports = {
